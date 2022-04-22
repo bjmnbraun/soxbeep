@@ -1,0 +1,3 @@
+#!/bin/bash
+set -beEu -o pipefail
+play -q -n synth 0.1 sin 880 || echo -e "\a"
